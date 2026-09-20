@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Redirecting…</title></head>
+<body>
+<script>
+  // Redirect the OAuth callback back to the SannaBot app
+  window.location.replace(
+    'sannabot://slack-callback' + window.location.search
+  );
+</script>
+<p>Redirecting to SannaBot app…</p>
+</body>
+</html>
